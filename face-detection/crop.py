@@ -15,14 +15,18 @@ def detect(cascade_file, filename, output_filename):
                                      # detector options
                                      scaleFactor = 1.1,
                                      minNeighbors = 5,
-                                     minSize = (50, 50))
+                                     minSize = (250, 250))
     i = 0
+    #print("INPUT:", filename)
     for (x, y, w, h) in faces:
     	cropped = image[y: y+h, x: x+w]
     	cv2.imwrite(output_filename+str(i)+".png", cropped)
+    	#print("OUTPUT: "+output_filename+str(i)+".png")
     	i += 1
         #cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 2)
-
+    
+    
+    
     #cv2.imshow("Anime Face Detection", image)
     #cv2.waitKey(0)
     #cv2.imwrite("out.png", image)
