@@ -15,7 +15,7 @@ def detect(cascade_file, filename, output_filename):
                                      # detector options
                                      scaleFactor = 1.1,
                                      minNeighbors = 5,
-                                     minSize = (250, 250))
+                                     minSize = (100, 100))
     i = 0
     #print("INPUT:", filename)
     for (x, y, w, h) in faces:
