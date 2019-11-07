@@ -2,6 +2,13 @@
 
 After seeing a demo of StyleGAN at an AI@UCI workshop, I wondered if it could be applied to anime faces. Turns out someone else had the idea as well! This is my implementation using my own custom datasets.
 
+### Current Progress
+Goal:
+<img src='img/reals.png'>
+
+Training:
+<img src='img/training.gif'>
+
 ### Environment
 OS: Windows 10
 GPU: Nvidia GTX 2070
