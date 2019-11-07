@@ -1,12 +1,11 @@
 # Anime Face Generation with StyleGAN
 
-After seeing a demo of StyleGAN at an AI@UCI workshop, I wondered if it could be applied to anime faces. Turns out someone else had the idea as well! This is my implementation using my own custom datasets.
+After seeing a demo of StyleGAN at an AI@UCI workshop, I wondered if it could be applied to anime faces. Turns out someone else had the idea as well! This is my implementation using my own custom dataset.
 
-### Current Progress
-Goal:
+### Goal:
 <img src='img/reals.png'>
 
-Training:
+### Current Training:
 <img src='img/training.gif'>
 
 ### Environment
